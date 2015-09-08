@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+
+<title>Treasure Hunt</title>
+
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="style/FrntEndCS.css">
+<script type="text/javascript" src="FrntEndJS.js"></script>
+</head>
+<body>
+
+<div id="splashscreen">
+<p>You will be redirected in <span id="counter">10</span> second(s).</p>
+
+
+<script type="text/javascript">
+
+function countdown() {
+    var i = document.getElementById('counter');
+    if (parseInt(i.innerHTML)<=0) {
+        location.href = 'FrntEnd.html';
+    }
+    i.innerHTML = parseInt(i.innerHTML)-1;
+}
+setInterval(function(){ countdown(); },1000);
+</script>
+
+<img class="displayed" src="images/op.png" />
+</div>
+
+</body>
+</html>
