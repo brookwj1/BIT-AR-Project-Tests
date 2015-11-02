@@ -1,0 +1,660 @@
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+
+
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+html, body {
+	/*margin: 0;
+	padding: 0;*/
+	background-color: transparent
+}
+
+#info {
+background-color: Blue;
+opacity: 0.8;
+-moz-border-radius: 1em 4em 1em 4em;
+border-radius: 1em 4em 1em 4em;
+display:none;
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+height: 10%;
+font: normal normal bold 16px/normal Helvetica, Arial, sans-serif;
+text-align: center;
+}
+
+img.displayed {
+height: 100%;
+width: 100%; 
+}
+
+#myCheckT,#myCheckS,#myCheckD{
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#exit{
+float: right;
+z-index:4;
+display:none;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#Congrats {
+background-color: #fff;
+position: absolute;
+top: 15%;
+left: 0;
+width: 100%;
+height: 85%;
+display:none;
+}
+
+img.smiley {
+height: 50%;
+width: 100%;
+}
+
+#TriDesc, #SheDesc, #DeeDesc{
+//background-image: url("Assets/wood2.png");
+background-color: #fff;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index:3;
+display:none;
+}
+
+#worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+display:none;
+}
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("Assets/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+display:none;
+}
+
+
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+
+
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+html, body {
+	/*margin: 0;
+	padding: 0;*/
+	background-color: transparent
+}
+
+#info {
+background-color: Blue;
+opacity: 0.8;
+-moz-border-radius: 1em 4em 1em 4em;
+border-radius: 1em 4em 1em 4em;
+display:none;
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+height: 10%;
+font: normal normal bold 16px/normal Helvetica, Arial, sans-serif;
+text-align: center;
+}
+
+img.displayed {
+height: 100%;
+width: 100%; 
+}
+
+#myCheckT,#myCheckS,#myCheckD{
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#exit{
+float: right;
+z-index:4;
+display:none;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#Congrats {
+background-color: #fff;
+position: absolute;
+top: 15%;
+left: 0;
+width: 100%;
+height: 85%;
+display:none;
+}
+
+img.smiley {
+height: 50%;
+width: 100%;
+}
+
+#TriDesc, #SheDesc, #DeeDesc{
+//background-image: url("Assets/wood2.png");
+background-color: #fff;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index:3;
+display:none;
+}
+
+#worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+display:none;
+}
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("Assets/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+display:none;
+}
+
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+
+
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+html, body {
+	/*margin: 0;
+	padding: 0;*/
+	background-color: transparent
+}
+
+#info {
+background-color: Blue;
+opacity: 0.8;
+-moz-border-radius: 1em 4em 1em 4em;
+border-radius: 1em 4em 1em 4em;
+display:none;
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+height: 10%;
+font: normal normal bold 16px/normal Helvetica, Arial, sans-serif;
+text-align: center;
+}
+
+img.displayed {
+height: 100%;
+width: 100%; 
+}
+
+#myCheckT,#myCheckS,#myCheckD{
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#exit{
+float: right;
+z-index:4;
+display:none;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#Congrats {
+background-color: #fff;
+position: absolute;
+top: 15%;
+left: 0;
+width: 100%;
+height: 85%;
+display:none;
+}
+
+img.smiley {
+height: 50%;
+width: 100%;
+}
+
+#TriDesc, #SheDesc, #DeeDesc{
+//background-image: url("Assets/wood2.png");
+background-color: #fff;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index:3;
+display:none;
+}
+
+#worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+display:none;
+}
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("Assets/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+display:none;
+}
+
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+
+
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+html, body {
+	/*margin: 0;
+	padding: 0;*/
+	background-color: transparent
+}
+
+#info {
+background-color: Blue;
+opacity: 0.8;
+-moz-border-radius: 1em 4em 1em 4em;
+border-radius: 1em 4em 1em 4em;
+display:none;
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+height: 10%;
+font: normal normal bold 16px/normal Helvetica, Arial, sans-serif;
+text-align: center;
+}
+
+img.displayed {
+height: 100%;
+width: 100%; 
+}
+
+#myCheckT,#myCheckS,#myCheckD{
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#exit{
+float: right;
+z-index:4;
+display:none;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#Congrats {
+background-color: #fff;
+position: absolute;
+top: 15%;
+left: 0;
+width: 100%;
+height: 85%;
+display:none;
+}
+
+img.smiley {
+height: 50%;
+width: 100%;
+}
+
+#TriDesc, #SheDesc, #DeeDesc{
+//background-image: url("Assets/wood2.png");
+background-color: #fff;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index:3;
+display:none;
+}
+
+#worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+display:none;
+}
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("Assets/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+display:none;
+}
+
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+html, body {
+	/*margin: 0;
+	padding: 0;*/
+	background-color: transparent
+}
+
+#info {
+background-color: Blue;
+opacity: 0.8;
+-moz-border-radius: 1em 4em 1em 4em;
+border-radius: 1em 4em 1em 4em;
+display:none;
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+height: 10%;
+font: normal normal bold 16px/normal Helvetica, Arial, sans-serif;
+text-align: center;
+}
+
+img.displayed {
+height: 100%;
+width: 100%; 
+}
+
+#myCheckT,#myCheckS,#myCheckD{
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#exit{
+float: right;
+z-index:4;
+display:none;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#Congrats {
+background-color: #fff;
+position: absolute;
+top: 15%;
+left: 0;
+width: 100%;
+height: 85%;
+display:none;
+}
+
+img.smiley {
+height: 50%;
+width: 100%;
+}
+
+#TriDesc, #SheDesc, #DeeDesc{
+//background-image: url("Assets/wood2.png");
+background-color: #fff;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index:3;
+display:none;
+}
+
+#worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+display:none;
+}
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("Assets/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+display:none;
+}
+
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+	<trackingdata url="Assets/TrackingData_MarkerlessFast.xml" />
+	<arel>tutorial.html</arel>
+	<object id="1">
+		<assets3d>
+			<model>Assets/tricycle.obj</model>
+			<texture>Assets/tricycle_uvw_tex.png</texture>
+			<transform>
+				<translation>
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</translation>
+				<rotation type="eulerdeg">
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</rotation>
+				<scale>
+					<x>4.0</x><y>4.0</y><z>4.0</z>
+				</scale>
+			</transform>
+			<properties>
+				<coordinatesystemid>1</coordinatesystemid>
+			</properties>
+		</assets3d>
+	</object>
+		<object id="2">
+		<assets3d>
+			<model>Assets/deer.obj</model>
+			<texture>Assets/dog_uvw02.png</texture>
+			<transform>
+				<translation>
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</translation>
+				<rotation type="eulerdeg">
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</rotation>
+				<scale>
+					<x>4.0</x><y>4.0</y><z>4.0</z>
+				</scale>
+			</transform>
+			<properties>
+				<coordinatesystemid>2</coordinatesystemid>
+			</properties>
+		</assets3d>
+	</object>
+		<object id="3">
+		<assets3d>
+			<model>Assets/sheep.obj</model>
+			<texture>Assets/sheep_uvw02.png</texture>
+			<transform>
+				<translation>
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</translation>
+				<rotation type="eulerdeg">
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</rotation>
+				<scale>
+					<x>4.0</x><y>4.0</y><z>4.0</z>
+				</scale>
+			</transform>
+			<properties>
+				<coordinatesystemid>3</coordinatesystemid>
+			</properties>
+		</assets3d>
+	</object>
+	
+			<object id="4">
+		<assets3d>
+			<model>Assets/piano.mfbx</model>
+			<texture>Assets/piano.mfbx</texture>
+			<transform>
+				<translation>
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</translation>
+				<rotation type="eulerdeg">
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</rotation>
+				<scale>
+					<x>4.0</x><y>4.0</y><z>4.0</z>
+				</scale>
+			</transform>
+			<properties>
+				<coordinatesystemid>4</coordinatesystemid>
+			</properties>
+		</assets3d>
+	</object>
+	
+		<object id="5">
+		<assets3d>
+			<model>Assets/sword.obj</model>
+			<texture>Assets/sword.png</texture>
+			<transform>
+				<translation>
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</translation>
+				<rotation type="eulerdeg">
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</rotation>
+				<scale>
+					<x>4.0</x><y>4.0</y><z>4.0</z>
+				</scale>
+			</transform>
+			<properties>
+				<coordinatesystemid>5</coordinatesystemid>
+			</properties>
+		</assets3d>
+	</object>
+	
+				<object id="6">
+		<assets3d>
+			<model>Assets/dolls.obj</model>
+			<texture>Assets/dolls.png</texture>
+			<transform>
+				<translation>
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</translation>
+				<rotation type="eulerdeg">
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</rotation>
+				<scale>
+					<x>4.0</x><y>4.0</y><z>4.0</z>
+				</scale>
+			</transform>
+			<properties>
+				<coordinatesystemid>6</coordinatesystemid>
+			</properties>
+		</assets3d>
+	</object>
+	
+</results>

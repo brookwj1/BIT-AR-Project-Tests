@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="style/FrntEndCS.css">
+<!-- 	<script type="text/javascript" src="http://dev.junaio.com/arel/js/arel.js"></script> 
+	<script type="text/javascript" src="javascript/FrntEndJS.js"></script> -->
+<link rel="stylesheet" href="animate.min.css">
+</head>
+<body>
+<div id="home" class="animated bounceInDown">
+<a href="IRScreen.php" ><img class="displayed3" src="images/TitleImg.png" ></a></div>
+
+<script>
+myAudio = new Audio('sounds/Title_BG.mp3'); 
+if (typeof myAudio.loop == 'boolean')
+{
+    myAudio.loop = true;
+}
+else
+{
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}
+myAudio.play();
+</script>
+
+</body>
+</html>

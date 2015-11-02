@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackingData>
+    <Sensors>
+        <Sensor subtype="FAST" type="FeatureBasedSensorSource">
+            <SensorID>FeatureBasedSensorSource_0</SensorID>
+            <Parameters>
+                <FeatureBasedParameters/>
+            </Parameters>
+            <SensorCOS>
+                <SensorCosID>GLUE_1_2_5_6-MISC_2-metaioMan__bb24fc8711f8611baeb31c58b88e0dd1</SensorCosID>
+                <Parameters>
+                    <referenceImage widthMM="400" heightMM="400">bb24fc8711f8611baeb31c58b88e0dd1.png</referenceImage>
+                </Parameters>
+            </SensorCOS>
+        </Sensor>
+    </Sensors>
+    <Connections>
+        <COS>
+            <Name>COS_1</Name>
+            <Fuser type="SmoothingFuser">
+                <Parameters>
+                    <AlphaRotation>0.5</AlphaRotation>
+                    <AlphaTranslation>0.8</AlphaTranslation>
+                    <GammaRotation>0.5</GammaRotation>
+                    <GammaTranslation>0.8</GammaTranslation>
+                    <KeepPoseForNumberOfFrames>0</KeepPoseForNumberOfFrames>
+                </Parameters>
+            </Fuser>
+            <SensorSource trigger="1">
+                <SensorID>FeatureBasedSensorSource_0</SensorID>
+                <SensorCosID>GLUE_1_2_5_6-MISC_2-metaioMan__bb24fc8711f8611baeb31c58b88e0dd1</SensorCosID>
+                <HandEyeCalibration>
+                    <TranslationOffset>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <w>1</w>
+                    </RotationOffset>
+                </HandEyeCalibration>
+                <COSOffset>
+                    <TranslationOffset>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                    </TranslationOffset>
+                    <RotationOffset>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <w>1</w>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+    </Connections>
+</TrackingData>

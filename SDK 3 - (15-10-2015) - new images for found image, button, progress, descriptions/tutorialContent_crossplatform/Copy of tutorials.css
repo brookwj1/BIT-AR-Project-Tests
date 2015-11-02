@@ -1,0 +1,924 @@
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+body {
+/* background-image:url("../images/frame3.png");
+background-repeat: no-repeat; */
+background-size: 100%;
+background-color:transparent;
+}
+
+#1,#2,#3,#4,#5,#6,#7,#8,#9,#10{
+background-image: url("Assets/star.png");
+display:none;
+z-index:5;
+}
+
+#star1,#star2,#star3,#star4,#star5,#star6,#star7,#star8,#star9,#star10{
+display:none;
+z-index:5;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+display:none;
+z-index:5;
+}
+
+th{
+float:left;
+}
+
+img.displayed {
+height: 90%;
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
+img.displayed2 {
+height: 100%;
+width: 100%;
+}
+
+img.flags {
+height: 100%;
+width: 50%;
+}
+
+img.cng{
+top: 15%;
+left: 15%;
+width: 100%;
+height: 100%;
+}
+
+h1{
+text-align: center;
+}
+
+/*background-image: url("../images/wood.png");*/
+#TriDesc, #SheDesc, #DeeDesc{
+background-color: transparent;
+position: absolute;
+top: 15%;
+left: 5;
+width: 95%;
+height: 100%;
+z-index:3;
+display:none;
+}
+
+#Congrats {
+background-color: transparent;
+background-image: url("TutorialHelloWorld/Assets/fw.gif");
+background-repeat: no-repeat;
+background-size: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+z-index:5;
+}
+
+#frame{
+background-color: transparent;
+background-image: url("Assets/frame3.png");
+background-repeat: no-repeat;
+background-size: 100%;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#exit{
+float: right;
+z-index:1;
+display:none;
+}
+
+/* #worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+ }
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("../images/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+ } */
+ 
+#home{
+top: 10%;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+ }
+ 
+img.displayed3 {
+height: 100%;
+width: 100%; 
+}
+ 
+#info {
+position: absolute;
+top: 0;
+left: 0%;
+width: 100%;
+display:none;
+}
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+body {
+/* background-image:url("../images/frame3.png");
+background-repeat: no-repeat; */
+background-size: 100%;
+background-color:transparent;
+}
+
+#1,#2,#3,#4,#5,#6,#7,#8,#9,#10{
+background-image: url("Assets/star.png");
+display:none;
+z-index:5;
+}
+
+#star1,#star2,#star3,#star4,#star5,#star6,#star7,#star8,#star9,#star10{
+display:none;
+z-index:5;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+display:none;
+z-index:5;
+}
+
+th{
+float:left;
+}
+
+img.displayed {
+height: 90%;
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
+img.displayed2 {
+height: 100%;
+width: 100%;
+}
+
+img.flags {
+height: 100%;
+width: 50%;
+}
+
+img.cng{
+top: 15%;
+left: 15%;
+width: 100%;
+height: 100%;
+}
+
+h1{
+text-align: center;
+}
+
+/*background-image: url("../images/wood.png");*/
+#TriDesc, #SheDesc, #DeeDesc{
+background-color: transparent;
+position: absolute;
+top: 15%;
+left: 5;
+width: 95%;
+height: 100%;
+z-index:3;
+display:none;
+}
+
+#Congrats {
+background-color: transparent;
+background-image: url("TutorialHelloWorld/Assets/fw.gif");
+background-repeat: no-repeat;
+background-size: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+z-index:5;
+}
+
+#frame{
+background-color: transparent;
+background-image: url("Assets/frame3.png");
+background-repeat: no-repeat;
+background-size: 100%;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#exit{
+float: right;
+z-index:1;
+display:none;
+}
+
+/* #worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+ }
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("../images/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+ } */
+ 
+#home{
+top: 10%;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+ }
+ 
+img.displayed3 {
+height: 100%;
+width: 100%; 
+}
+ 
+#info {
+position: absolute;
+top: 0;
+left: 0%;
+width: 100%;
+display:none;
+}
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+body {
+/* background-image:url("../images/frame3.png");
+background-repeat: no-repeat; */
+background-size: 100%;
+background-color:transparent;
+}
+
+#1,#2,#3,#4,#5,#6,#7,#8,#9,#10{
+background-image: url("Assets/star.png");
+display:none;
+z-index:5;
+}
+
+#star1,#star2,#star3,#star4,#star5,#star6,#star7,#star8,#star9,#star10{
+display:none;
+z-index:5;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+display:none;
+z-index:5;
+}
+
+th{
+float:left;
+}
+
+img.displayed {
+height: 90%;
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
+img.displayed2 {
+height: 100%;
+width: 100%;
+}
+
+img.flags {
+height: 100%;
+width: 50%;
+}
+
+img.cng{
+top: 15%;
+left: 15%;
+width: 100%;
+height: 100%;
+}
+
+h1{
+text-align: center;
+}
+
+/*background-image: url("../images/wood.png");*/
+#TriDesc, #SheDesc, #DeeDesc{
+background-color: transparent;
+position: absolute;
+top: 15%;
+left: 5;
+width: 95%;
+height: 100%;
+z-index:3;
+display:none;
+}
+
+#Congrats {
+background-color: transparent;
+background-image: url("TutorialHelloWorld/Assets/fw.gif");
+background-repeat: no-repeat;
+background-size: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+z-index:5;
+}
+
+#frame{
+background-color: transparent;
+background-image: url("Assets/frame3.png");
+background-repeat: no-repeat;
+background-size: 100%;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#exit{
+float: right;
+z-index:1;
+display:none;
+}
+
+/* #worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+ }
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("../images/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+ } */
+ 
+#home{
+top: 10%;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+ }
+ 
+img.displayed3 {
+height: 100%;
+width: 100%; 
+}
+ 
+#info {
+position: absolute;
+top: 0;
+left: 0%;
+width: 100%;
+display:none;
+}
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+body {
+/* background-image:url("../images/frame3.png");
+background-repeat: no-repeat; */
+background-size: 100%;
+background-color:transparent;
+}
+
+#1,#2,#3,#4,#5,#6,#7,#8,#9,#10{
+background-image: url("Assets/star.png");
+display:none;
+z-index:5;
+}
+
+#star1,#star2,#star3,#star4,#star5,#star6,#star7,#star8,#star9,#star10{
+display:none;
+z-index:5;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+display:none;
+z-index:5;
+}
+
+th{
+float:left;
+}
+
+img.displayed {
+height: 90%;
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
+img.displayed2 {
+height: 100%;
+width: 100%;
+}
+
+img.flags {
+height: 100%;
+width: 50%;
+}
+
+img.cng{
+top: 15%;
+left: 15%;
+width: 100%;
+height: 100%;
+}
+
+h1{
+text-align: center;
+}
+
+/*background-image: url("../images/wood.png");*/
+#TriDesc, #SheDesc, #DeeDesc{
+background-color: transparent;
+position: absolute;
+top: 15%;
+left: 5;
+width: 95%;
+height: 100%;
+z-index:3;
+display:none;
+}
+
+#Congrats {
+background-color: transparent;
+background-image: url("TutorialHelloWorld/Assets/fw.gif");
+background-repeat: no-repeat;
+background-size: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+z-index:5;
+}
+
+#frame{
+background-color: transparent;
+background-image: url("Assets/frame3.png");
+background-repeat: no-repeat;
+background-size: 100%;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#exit{
+float: right;
+z-index:1;
+display:none;
+}
+
+/* #worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+ }
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("../images/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+ } */
+ 
+#home{
+top: 10%;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+ }
+ 
+img.displayed3 {
+height: 100%;
+width: 100%; 
+}
+ 
+#info {
+position: absolute;
+top: 0;
+left: 0%;
+width: 100%;
+display:none;
+}
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+* {
+	-webkit-highlight: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none
+}
+
+body {
+/* background-image:url("../images/frame3.png");
+background-repeat: no-repeat; */
+background-size: 100%;
+background-color:transparent;
+}
+
+#1,#2,#3,#4,#5,#6,#7,#8,#9,#10{
+background-image: url("Assets/star.png");
+display:none;
+z-index:5;
+}
+
+#star1,#star2,#star3,#star4,#star5,#star6,#star7,#star8,#star9,#star10{
+display:none;
+z-index:5;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+display:none;
+z-index:5;
+}
+
+th{
+float:left;
+}
+
+img.displayed {
+height: 90%;
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
+img.displayed2 {
+height: 100%;
+width: 100%;
+}
+
+img.flags {
+height: 100%;
+width: 50%;
+}
+
+img.cng{
+top: 15%;
+left: 15%;
+width: 100%;
+height: 100%;
+}
+
+h1{
+text-align: center;
+}
+
+/*background-image: url("../images/wood.png");*/
+#TriDesc, #SheDesc, #DeeDesc{
+background-color: transparent;
+position: absolute;
+top: 15%;
+left: 5;
+width: 95%;
+height: 100%;
+z-index:3;
+display:none;
+}
+
+#Congrats {
+background-color: transparent;
+background-image: url("TutorialHelloWorld/Assets/fw.gif");
+background-repeat: no-repeat;
+background-size: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+z-index:5;
+}
+
+#frame{
+background-color: transparent;
+background-image: url("Assets/frame3.png");
+background-repeat: no-repeat;
+background-size: 100%;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+}
+
+#Mglass{
+float: right;
+z-index:4;
+display:none;
+}
+
+#Mglass2{
+float: right;
+z-index:4;
+display:none;
+}
+
+#prgrss{
+float: right;
+z-index:4;
+display:block;
+}
+
+#checksheep{
+float: left;
+z-index:4;
+display:none;
+}
+#checkdeer{
+float: left;
+z-index:4;
+display:none;
+}
+#checktric{
+float: left;
+z-index:4;
+display:none;
+}
+
+#exit{
+float: right;
+z-index:1;
+display:none;
+}
+
+/* #worldA, #worldE, #worldC{
+background-color: transparent;
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 2;
+ }
+ 
+#worldACE{
+border: 3px solid Black;
+background-image: url("../images/wood.png");
+position: absolute;
+top: 12%;
+left: 0;
+width: 100%;
+height: 90%;
+z-index: 1;
+ } */
+ 
+#home{
+top: 10%;
+left: 0;
+width: 100%;
+height: 100%;
+display:none;
+ }
+ 
+img.displayed3 {
+height: 100%;
+width: 100%; 
+}
+ 
+#info {
+position: absolute;
+top: 0;
+left: 0%;
+width: 100%;
+display:none;
+}
+}
